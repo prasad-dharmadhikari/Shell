@@ -37,13 +37,13 @@ do
 		diceNumber[$key4]=$count4
 		;;
   	5)
-      	((count5++))
-      	diceNumber[$key5]=$count5
-      	;;
+      		((count5++))
+      		diceNumber[$key5]=$count5
+      		;;
    	6)
-      	((count6++))
-      	diceNumber[$key6]=$count6
-      	;;
+      		((count6++))
+      		diceNumber[$key6]=$count6
+      		;;
 	esac
 	if(( $count1==10 || $count2==10 || $count3==10 || $count4==10 || $count5==10 || $count6==10 ))
 	then
