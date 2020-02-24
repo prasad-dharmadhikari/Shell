@@ -16,11 +16,11 @@ count12=0
 declare -A birthDictionary  #declaration of dictionary
 for((person=1;person<=50;person++))
 do
-	birthMonth=$((RANDOM%12+1))
-	#case statement
-	case $birthMonth in
+   birthMonth=$((RANDOM%12+1))
+   #case statement
+   case $birthMonth in
    1)
-		((count1++))
+	((count1++))
       	birthDictionary[${month[0]}]=$count1
    ;;
    2)
