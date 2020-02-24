@@ -19,10 +19,10 @@ do
 	birthMonth=$((RANDOM%12+1))
 	#case statement
 	case $birthMonth in
-	1)
+   1)
 		((count1++))
-      birthDictionary[${month[0]}]=$count1
-	;;
+      	birthDictionary[${month[0]}]=$count1
+   ;;
    2)
       ((count2++))
       birthDictionary[${month[1]}]=$count2
@@ -35,7 +35,7 @@ do
       ((count4++))
       birthDictionary[${month[3]}]=$count4
    ;;
-  	5)
+   5)
       ((count5++))
       birthDictionary[${month[4]}]=$count5
    ;;
