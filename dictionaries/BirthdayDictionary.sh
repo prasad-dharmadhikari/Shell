@@ -20,8 +20,8 @@ do
    #case statement
    case $birthMonth in
    1)
-	((count1++))
-      	birthDictionary[${month[0]}]=$count1
+		((count1++))
+      birthDictionary[${month[0]}]=$count1
    ;;
    2)
       ((count2++))
